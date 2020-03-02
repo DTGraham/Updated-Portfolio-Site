@@ -28,16 +28,31 @@ export default class Gallery extends React.Component {
 
       $("input.Image-One ").on("click", function() {
         $("div.modal").css({
-          "background-image": "url(/Project-1-Detail.jpg)" // Set background image to relevant project
+          // Set background image to relevant project
+          "background-image": "url(/Project-1-Detail.jpg)"
         });
-        $("div.modal").css({ display: "block" }); // Display the modal window
+
+        // Display the modal window
+        $("div.modal").css({ display: "block" });
         $("div.Modal-Flex-Row").css({ color: "white" });
-        $("h1.Project-Title").text("MER Construction"); // Set all relevant text
+
+        // Fill in all of the headings with text relevant to selected project and proper link
+        $("h1.Project-Title").text("MER Construction");
         $("a.Project-Link.One").text(
-          "A minimalistic weather site designed to be concise and efficient"
+          "A modern construction site developed for a local company"
+        );
+        $("a.Project-Link.One").attr(
+          "href",
+          "https://mer-construction.herokuapp.com/"
+        );
+        $("a.Project-Link.Two").text("MER Construction");
+        $("a.Project-Link.Two").attr(
+          "href",
+          "https://mer-construction.herokuapp.com/"
         );
 
-        $("body").css("overflow", "hidden"); // Display scroll bar if necessary
+        // Display scroll bar if necessary
+        $("body").css("overflow", "hidden");
       });
 
       $("input.Image-Two ").on("click", function() {
@@ -51,6 +66,29 @@ export default class Gallery extends React.Component {
         $("a.Project-Link.One").text(
           "A minimalistic weather site designed to be concise and efficient"
         );
+        $("a.Project-Link.One").attr(
+          "href",
+          "https://master.dpsatdhkjg1re.amplifyapp.com/"
+        );
+        $("a.Project-Link.Two").text("Cirrus Weather");
+        $("a.Project-Link.Two").attr(
+          "href",
+          "https://master.dpsatdhkjg1re.amplifyapp.com/"
+        );
+        $("p.Project-Info.Three").text(
+          "                    I built this site primarily to gain a deeper understanding of React. As a result, the site is made up entirely of react components."
+        );
+        $("a.Project-Link.Three").text("Weather Bit API");
+        $("a.Project-Link.Three").attr("href", "https://www.weatherbit.io/api");
+        $("p.Project-Info.Five").text(
+          "I made this site in January 2020. The source code can be found "
+        );
+        $("a.Project-Link.Four").text("Cirrus Weather");
+        $("a.Project-Link.Four").attr(
+          "href",
+          "https://github.com/DTGraham/Cirrus-Weather/"
+        );
+
         $("body").css("overflow", "hidden");
       });
 
@@ -63,6 +101,15 @@ export default class Gallery extends React.Component {
         $("div.Modal-Flex-Row").css({ color: "white" });
         $("h1.Project-Title").text("Portfolio Site");
         $("a.Project-Link.One").text("A brief showcase of my projects");
+        $("a.Project-Link.One").attr(
+          "href",
+          "https://danielgportfolio.herokuapp.com/"
+        );
+        $("a.Project-Link.Two").attr(
+          "href",
+          "https://danielgportfolio.herokuapp.com/"
+        );
+
         $("body").css("overflow", "hidden");
       });
 
@@ -199,10 +246,7 @@ export default class Gallery extends React.Component {
                 <div class="Modal-Flex-Column">
                   <h1 class="Project-Title"></h1>
                   <h3 class="Project-Info One">
-                    <a
-                      class="Project-Link One"
-                      href="https://master.dpsatdhkjg1re.amplifyapp.com/"
-                    ></a>
+                    <a class="Project-Link One"></a>
                   </h3>
                   <h6 class="tech-desc">Technologies Used:</h6>
                   <div class="tech-flex">
@@ -265,14 +309,7 @@ export default class Gallery extends React.Component {
                     forecast feature.
                   </p>
                   <p class="Project-Info Five">
-                    I made this site in January 2020. The source code can be
-                    found{" "}
-                    <a
-                      class="Project-Link Four"
-                      href="https://github.com/DTGraham/Cirrus-Weather"
-                    >
-                      here
-                    </a>
+                    <a class="Project-Link Four">here</a>
                   </p>
                 </div>
               </div>
