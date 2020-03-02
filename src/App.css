@@ -95,10 +95,10 @@ form > label {
   width: 400px;
 }
 
-.Contact-Col.Three {
+.Contact-Col.Button {
   margin-top: 20px;
 }
-.Contact-Col.Three > input {
+.Contact-Col.Button > input {
   transition-property: transform;
   transition-duration: 300ms;
 }

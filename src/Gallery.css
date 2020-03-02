@@ -1,0 +1,71 @@
+.Projects {
+  text-align: center;
+}
+
+.Projects > div > h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.Projects-Flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.Projects-Image-Flex {
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+}
+
+/* Set project gallery tile images */
+
+.Projects-Image.Image-One {
+  background-image: url("/Project-1.png");
+  background-size: 100%;
+  width: 450px;
+  height: 245px;
+  margin: 10px;
+  transition-property: all;
+  transition-duration: 300ms;
+}
+
+.Projects-Image.Image-Two {
+  background-image: url("/Project-2.png");
+  background-size: 100%;
+  width: 450px;
+  height: 245px;
+  margin: 10px;
+  transition-property: all;
+  transition-duration: 300ms;
+}
+
+.Projects-Image.Image-Three {
+  background-image: url("/Project-3.png");
+  background-size: 100%;
+  width: 450px;
+  height: 245px;
+  margin: 10px;
+  transition-property: all;
+  transition-duration: 300ms;
+}
+
+/* Set project image text contents to be invisible until hovered over */
+
+.Projects-Image-Contents.Image-One {
+  font-weight: bold;
+  margin-top: 50px;
+  opacity: 0;
+}
+.Projects-Image-Contents.Image-Two {
+  font-weight: bold;
+  margin-top: 50px;
+  opacity: 0;
+}
+.Projects-Image-Contents.Image-Three {
+  font-weight: bold;
+  margin-top: 50px;
+  opacity: 0;
+}

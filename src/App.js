@@ -135,6 +135,9 @@ export default class App extends React.Component {
           </div>
         </div>
 
+        {/* Projects Section */}
+        <div id="projectGallery"></div>
+
         {/* Contact Section */}
         <div class="Contact" id="Contact">
           <div class="container">
@@ -173,9 +176,9 @@ export default class App extends React.Component {
                     placeholder="Your Message"
                   />
                 </div>
-                <div class="Contact-Col Three">
+                <div class="Contact-Col Button">
                   <input
-                    class="btn btn-success"
+                    class="btn btn-warning"
                     type="submit"
                     name=""
                     value="Submit"
