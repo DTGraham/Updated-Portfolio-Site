@@ -89,7 +89,11 @@ export default class App extends React.Component {
             <h5 class="Home-Col Two">
               I'm a full stack developer based in Ottawa
             </h5>
-            <button class=" Home-Col btn btn-light" type="button" name="button">
+            <button
+              class=" Home-Col btn btn-warning"
+              type="button"
+              name="button"
+            >
               <a class="Home-Col Three" href="#About">
                 Learn More
               </a>

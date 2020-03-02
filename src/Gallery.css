@@ -16,8 +16,15 @@
 .Projects-Image-Flex {
   display: flex;
   flex-direction: column;
-
+  opacity: 0;
+  transform: translate(0, 20px);
+  transition: all 2s;
   color: white;
+}
+
+.Projects-Image-Flex.visible {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 /* Set project gallery tile images */

@@ -6,7 +6,26 @@ export default class Gallery extends React.Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     $(document).ready(function() {
+      // This function loads project images only when scrolled into view
+      $(document).on("scroll", function() {
+        var pageTop = $(document).scrollTop();
+        var pageBottom = pageTop + $(window).height();
+        var tags = $(".Projects-Image-Flex");
+
+        for (var i = 0; i < tags.length; i++) {
+          var tag = tags[i];
+
+          if ($(tag).position().top < pageBottom) {
+            $(tag).addClass("visible");
+          } else {
+            $(tag).removeClass("visible");
+          }
+        }
+      });
+
+      // No highlight function on mobile
       if (window.innerWidth > 500) {
+        // Highlight Project on hover
         $("div.Image-One").on("mouseover", function() {
           $("div.Image-One").css(
             "background-image",
