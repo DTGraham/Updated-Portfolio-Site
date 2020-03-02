@@ -46,6 +46,7 @@
   height: 245px;
   margin: 10px;
   transition-property: all;
+
   transition-duration: 300ms;
 }
 
@@ -75,4 +76,86 @@
   font-weight: bold;
   margin-top: 50px;
   opacity: 0;
+}
+
+/* Modal Styling */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-image: url("/Project-3-Detail.jpg");
+  background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content {
+  justify-content: center;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 20px;
+  border: 0px;
+  width: 100%;
+}
+
+.Modal-Flex-Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.Modal-Flex-Row.Arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.Modal-Flex-Column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+}
+
+.Close-Arrow {
+  width: 60px;
+}
+
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.modal-image {
+  width: 700px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Project-Title {
+  margin-top: 20px;
+  font-weight: bold;
 }
