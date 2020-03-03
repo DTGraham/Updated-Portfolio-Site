@@ -28,17 +28,17 @@ export default class App extends React.Component {
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#About">
+                    <a class="nav-link Nav-About" href="#About-Link">
                       About<span class="sr-only">(current)</span>
                     </a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link">
+                    <a class="nav-link Nav-Projects" href="#Projects">
                       Projects <span class="sr-only">(current)</span>
                     </a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="#Contact">
+                    <a class="nav-link Nav-Contact" href="#Contact">
                       Contact <span class="sr-only">(current)</span>
                     </a>
                   </li>
@@ -62,7 +62,7 @@ export default class App extends React.Component {
                   <li class="nav-item active">
                     <a
                       target="_blank"
-                      class="nav-link"
+                      class="nav-link "
                       href="https://www.linkedin.com/in/daniel-graham-596a0a141"
                     >
                       <img
@@ -94,7 +94,7 @@ export default class App extends React.Component {
               type="button"
               name="button"
             >
-              <a class="Home-Col Three" href="#About">
+              <a class="Home-Col Three" ref="#About-Link">
                 Learn More
               </a>
             </button>
@@ -102,6 +102,7 @@ export default class App extends React.Component {
         </div>
 
         {/* About Section */}
+        <div id="About-Link"></div>
         <div class="About" id="About">
           <div class="container">
             <div class="About-Flex">
