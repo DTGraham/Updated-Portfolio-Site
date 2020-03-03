@@ -192,7 +192,7 @@ button {
   .Projects-Image.Image-One {
     background-image: url("/Project-1-Mobile-Dark.png");
     background-size: 100%;
-    width: 250px;
+    width: 270px;
     height: 400px;
     margin: 10px;
     transition-property: all;
@@ -202,7 +202,7 @@ button {
   .Projects-Image.Image-Two {
     background-image: url("/Project-2-Mobile-Dark.png");
     background-size: 100%;
-    width: 250px;
+    width: 270px;
     height: 400px;
     margin: 10px;
     transition-property: all;
@@ -213,7 +213,7 @@ button {
   .Projects-Image.Image-Three {
     background-image: url("/Project-3-Mobile-Dark.png");
     background-size: 100%;
-    width: 250px;
+    width: 270px;
     height: 400px;
     margin: 10px;
     transition-property: all;
