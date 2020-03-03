@@ -38,7 +38,7 @@ export default class Gallery extends React.Component {
         $("div.modal").css({ display: "block" });
         $("div.Modal-Flex-Row").css({ color: "white" });
         $("div.Modal-Flex-Column").css({ color: "white" });
-        $("a.Project-Link").css({ color: "darkgrey" });
+        $("a.Project-Link").css({ color: "navy" });
         $("a.Tech-Image.One").css({ color: "white" });
 
         // Fill in all of the headings with text relevant to selected project and proper link
