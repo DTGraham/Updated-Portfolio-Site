@@ -38,12 +38,12 @@ export default class Gallery extends React.Component {
         $("div.modal").css({ display: "block" });
         $("div.Modal-Flex-Row").css({ color: "white" });
         $("div.Modal-Flex-Column").css({ color: "white" });
-        $("a.Project-Link").css({ color: "navy" });
+        $("a.Project-Link").css({ color: "blue  " });
         $("a.Tech-Image.One").css({ color: "white" });
 
         // Fill in all of the headings with text relevant to selected project and proper link
         $("h1.Project-Title").text("MER Construction");
-        $("a.Project-Link.One").text("A modern construction site");
+        $("h3.Project-Info.One").text("A modern construction site");
         $("a.Project-Link.One").attr(
           "href",
           "https://mer-construction.herokuapp.com/"
@@ -83,7 +83,7 @@ export default class Gallery extends React.Component {
         $("a.Tech-Image.One").css({ color: "black" });
 
         $("h1.Project-Title").text("Cirrus Weather");
-        $("a.Project-Link.One").text(
+        $("h3.Project-Info.One").text(
           "A minimalistic weather site designed to be concise and efficient"
         );
         $("a.Project-Link.One").attr(
@@ -126,7 +126,7 @@ export default class Gallery extends React.Component {
         $("a.Project-Link").css({ color: "navy" });
         $("a.Tech-Image.One").css({ color: "white" });
         $("h1.Project-Title").text("Portfolio Site");
-        $("a.Project-Link.One").text(
+        $("h3.Project-Info.One").text(
           "A brief showcase of my projects and skillset"
         );
         $("a.Project-Link.One").attr(
@@ -306,9 +306,7 @@ export default class Gallery extends React.Component {
               <div class="Modal-Flex-Row">
                 <div class="Modal-Flex-Column">
                   <h1 class="Project-Title"></h1>
-                  <h3 class="Project-Info One">
-                    <a target="_blank" class="Project-Link One"></a>
-                  </h3>
+                  <h3 class="Project-Info One"></h3>
                   <h6 class="tech-desc">Technologies Used:</h6>
                   <div class="tech-flex">
                     <a
@@ -361,6 +359,9 @@ export default class Gallery extends React.Component {
                   <p class="Project-Info Four"></p>
                   <a target="_blank" class="Project-Link Two"></a>
                   <a target="_blank" class="Project-Link Three"></a>
+                  <a target="_blank" class="Project-Link One">
+                    Live Demo
+                  </a>
                 </div>
               </div>
             </div>

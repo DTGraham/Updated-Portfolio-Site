@@ -133,13 +133,15 @@ form > label {
   }
 
   .Home-Col.One {
+    text-align: center;
     margin-top: 275px;
-    font-size: 200%;
+    font-size: 300%;
     font-weight: bold;
   }
 
   .Home-Col.Two {
-    font-size: 110%;
+    text-align: center;
+    font-size: 150%;
   }
   .About-Flex {
     text-align: center;
@@ -159,13 +161,14 @@ form > label {
   }
 
   .Home-Col.One {
-    margin-top: 220px;
-    font-size: 160%;
+    text-align: center;
+    margin-top: 170px;
+    font-size: 300%;
     font-weight: bold;
   }
 
   .Home-Col.Two {
-    font-size: 90%;
+    font-size: 150%;
   }
   .About-Flex > h5 {
     font-size: 90%;
