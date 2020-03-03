@@ -143,7 +143,7 @@ export default class Gallery extends React.Component {
         $("a.Project-Link.Two").text("Source Code");
         $("a.Project-Link.Two").attr(
           "href",
-          "https://github.com/DTGraham/Cirrus-Weather/"
+          "https://github.com/DTGraham/Updated-Portfolio-Site"
         );
         $("a.Project-Link.Three").text(" ");
         $("img.Tech-Image.Two").attr("src", "");
