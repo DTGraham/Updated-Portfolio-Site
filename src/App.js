@@ -94,7 +94,7 @@ export default class App extends React.Component {
               type="button"
               name="button"
             >
-              <a class="Home-Col Three" ref="#About-Link">
+              <a class="Home-Col Three" href="#About-Link">
                 Learn More
               </a>
             </button>

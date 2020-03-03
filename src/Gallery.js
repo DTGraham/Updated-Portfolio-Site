@@ -125,7 +125,7 @@ export default class Gallery extends React.Component {
         );
         $("a.Project-Link.One").attr(
           "href",
-          "https://danielgportfolio.herokuapp.com/"
+          "https://daniel-graham.herokuapp.com/"
         );
 
         $("p.Project-Info.Two").text(
