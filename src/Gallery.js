@@ -32,10 +32,12 @@ export default class Gallery extends React.Component {
           // Set background image to relevant project
           "background-image": "url(/Project-1-Detail.jpg)"
         });
+        $("img.close").attr("src", "/White-Arrow.svg");
 
         // Display the modal window
         $("div.modal").css({ display: "block" });
         $("div.Modal-Flex-Row").css({ color: "white" });
+        $("div.Modal-Flex-Column").css({ color: "white" });
         $("a.Project-Link").css({ color: "darkgrey" });
         $("a.Tech-Image.One").css({ color: "white" });
 
@@ -72,9 +74,11 @@ export default class Gallery extends React.Component {
         $("div.modal").css({
           "background-image": "url(/Project-2-Detail.jpg)"
         });
+        $("img.close").attr("src", "/Black-Arrow.svg");
 
         $("div.modal").css({ display: "block" });
         $("div.Modal-Flex-Row").css({ color: "black" });
+        $("div.Modal-Flex-Column").css({ color: "black" });
         $("a.Project-Link").css({ color: "navy" });
         $("a.Tech-Image.One").css({ color: "black" });
 
@@ -114,9 +118,11 @@ export default class Gallery extends React.Component {
         $("div.modal").css({
           "background-image": "url(/Project-3-Detail.jpg)"
         });
+        $("img.Close-Arrow").attr("src", "/White-Arrow.svg");
 
         $("div.modal").css({ display: "block" });
         $("div.Modal-Flex-Row").css({ color: "white" });
+        $("div.Modal-Flex-Column").css({ color: "white" });
         $("a.Project-Link").css({ color: "navy" });
         $("a.Tech-Image.One").css({ color: "white" });
         $("h1.Project-Title").text("Portfolio Site");
@@ -295,7 +301,7 @@ export default class Gallery extends React.Component {
             <div class="modal-content">
               <div class="Modal-Flex-Row Arrow">
                 {" "}
-                <img class=" close Close-Arrow" src="/White-Arrow.svg"></img>
+                <img class=" close Close-Arrow"></img>
               </div>
               <div class="Modal-Flex-Row">
                 <div class="Modal-Flex-Column">
