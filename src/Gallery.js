@@ -38,7 +38,7 @@ export default class Gallery extends React.Component {
         $("div.modal").css({ display: "block" });
         $("div.Modal-Flex-Row").css({ color: "white" });
         $("div.Modal-Flex-Column").css({ color: "white" });
-        $("a.Project-Link").css({ color: "blue  " });
+        $("a.Project-Link").css({ color: "white" });
         $("a.Tech-Image.One").css({ color: "white" });
 
         // Fill in all of the headings with text relevant to selected project and proper link
@@ -79,7 +79,7 @@ export default class Gallery extends React.Component {
         $("div.modal").css({ display: "block" });
         $("div.Modal-Flex-Row").css({ color: "black" });
         $("div.Modal-Flex-Column").css({ color: "black" });
-        $("a.Project-Link").css({ color: "navy" });
+        $("a.Project-Link").css({ color: "black" });
         $("a.Tech-Image.One").css({ color: "black" });
 
         $("h1.Project-Title").text("Cirrus Weather");
@@ -123,7 +123,8 @@ export default class Gallery extends React.Component {
         $("div.modal").css({ display: "block" });
         $("div.Modal-Flex-Row").css({ color: "white" });
         $("div.Modal-Flex-Column").css({ color: "white" });
-        $("a.Project-Link").css({ color: "navy" });
+        $("a.Project-Link").css({ color: "white" });
+        $("a.Project-Link").css({ "text-decoration": "underline" });
         $("a.Tech-Image.One").css({ color: "white" });
         $("h1.Project-Title").text("Portfolio Site");
         $("h3.Project-Info.One").text(

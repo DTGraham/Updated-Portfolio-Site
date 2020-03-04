@@ -60,6 +60,10 @@
   transition-duration: 300ms;
 }
 
+.Project-Link {
+  text-decoration: underline;
+}
+
 /* Set project image text contents to be invisible until hovered over */
 
 .Projects-Image-Contents.Image-One {
